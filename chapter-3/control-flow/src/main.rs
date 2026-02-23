@@ -29,6 +29,7 @@ fn main() {
     // you can assign a variable based on a condition
     let condition = true;
     let number = if condition { 5 } else { 6 };
+    println!("The value of number is {number}");
 
     // infinite loop, can only be broken out of using control+c
     //loop {
